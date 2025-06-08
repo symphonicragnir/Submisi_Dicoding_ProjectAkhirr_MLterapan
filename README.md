@@ -108,6 +108,7 @@ Pengelompokkan berdasarkan kelompok etnis dan tipe makan siang dapat mengungkap 
 ## Visualisasi Data
 Untuk mendapatkan insight yang lebih mudah dipahami, beberapa teknik visualisasi yang dapat diterapkan antara lain:
 - Boxplot:
+
 ![image](https://github.com/user-attachments/assets/4861d0ec-d564-430c-ab1e-e655fde8a9e5)
 
 Menampilkan distribusi skor untuk setiap kategori (misalnya, gender atau test preparation status) guna mengidentifikasi median, kuartil, serta outlier.
