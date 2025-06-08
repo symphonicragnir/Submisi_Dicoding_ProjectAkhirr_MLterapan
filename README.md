@@ -1,13 +1,13 @@
-### Laporan Proyek Machine Learning = Farchan Suryadio Rizki
+### Laporan Proyek Machine Learning = Reykhan Detak Chary Kartika
 ## Domain Proyek 
-# ✨ Latar Belakang
+#  Latar Belakang
 Pendidikan merupakan salah satu faktor penting dalam pembangunan sumber daya manusia. Nilai ujian, khususnya dalam mata pelajaran matematika, sering dijadikan indikator keberhasilan akademik siswa. Namun, prestasi siswa tidak hanya dipengaruhi oleh faktor internal seperti kemampuan intelektual, tetapi juga oleh faktor eksternal seperti latar belakang keluarga, jenis kelamin, status sosial ekonomi, dan ketersediaan program pendukung seperti kursus persiapan ujian.
 Kemajuan teknologi dan ketersediaan data pendidikan memungkinkan penggunaan pendekatan machine learning dalam memprediksi hasil akademik siswa. Dengan membangun model prediktif berbasis data, institusi pendidikan dapat mengidentifikasi siswa yang berpotensi mengalami kesulitan akademik sejak dini dan memberikan intervensi yang sesuai.
 Melalui penelitian ini, penulis akan menganalisis data performa ujian siswa dan membangun model prediktif yang dapat memperkirakan nilai matematika berdasarkan faktor-faktor non-akademik menggunakan algoritma pembelajaran mesin.
 Predictive Analysis : Student Performance
 Link dataset source (kaggle) : https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
 
-# ✅ Deskripsi Dataset:
+#  Deskripsi Dataset:
 Dataset ini memuat catatan nilai siswa pada tiga mata pelajaran utama, yaitu matematika, membaca, dan menulis. Di samping itu, tersedia pula beberapa variabel kategorikal yang dapat menjadi faktor penentu, seperti:
 - Gender (Jenis Kelamin)
 - Race/Ethnicity (Kelompok Etnis)
@@ -24,7 +24,7 @@ Dataset ini memuat catatan nilai siswa pada tiga mata pelajaran utama, yaitu mat
 - test preparation course (completed/none)
 - reading score, writing score
 
-# ✨  Proyek Prediksi:
+#   Proyek Prediksi:
 🔸 1. Regresi
 Tujuan: Memprediksi nilai matematika sebagai target numerik.
 Model: Linear Regression, Random Forest Regressor, XGBoost Regressor, dll.
@@ -33,22 +33,22 @@ Tujuan: Mengelompokkan siswa ke dalam kategori prestasi, contoh:
 low (0–60), medium (61–80), high (81–100)
 Model: Logistic Regression, Decision Tree, Random Forest, SVM, dll.
 
-# 📊 Visualisasi & Analisis yang Bisa Dibuat:
+#  Visualisasi & Analisis yang Bisa Dibuat:
 1. Korelasi antar nilai (math, reading, writing)
 2. Boxplot nilai berdasarkan gender atau test preparation
 3. Heatmap korelasi numerik
 4. Analisis feature importance
 
-# 🧩 Pernyataan Masalah:
+#  Pernyataan Masalah:
 Bagaimana kita dapat memprediksi nilai matematika siswa berdasarkan faktor-faktor demografis dan akademik seperti jenis kelamin, latar belakang etnis, tingkat pendidikan orang tua, jenis makan siang, dan partisipasi dalam kursus persiapan ujian?
 
-# 🎯 Tujuan Proyek:
+#  Tujuan Proyek:
 Tujuan dari proyek ini adalah untuk membangun model prediktif yang mampu:
 
 (a) memprediksi nilai matematika siswa secara kuantitatif (regresi)
 (b) mengelompokkan siswa ke dalam kategori prestasi (klasifikasi) berdasarkan karakteristik non-akademik mereka.
 
-# ❓ Pertanyaan Masalah:
+#  Pertanyaan Masalah:
 
 1. Faktor apa saja dari data demografis dan akademik yang paling memengaruhi nilai matematika siswa?
 2. Dapatkah model prediktif dibangun untuk memprediksi nilai matematika siswa secara akurat berdasarkan faktor-faktor tersebut?
@@ -57,14 +57,14 @@ Tujuan dari proyek ini adalah untuk membangun model prediktif yang mampu:
 
 Model prediksi mana yang memberikan kinerja terbaik dalam memprediksi nilai matematika siswa: regresi linier, pohon keputusan, atau random forest? 
 
-# 🎯 Tujuan Penelitian:
+#  Tujuan Penelitian:
 1. Mengidentifikasi faktor-faktor demografis dan akademik yang berpengaruh terhadap nilai matematika siswa.
 2. Membangun model prediksi untuk memperkirakan nilai matematika siswa berdasarkan data non-akademik seperti jenis kelamin, tingkat pendidikan orang tua, dan keikutsertaan dalam kursus persiapan ujian.
 3. Mengevaluasi pengaruh program persiapan ujian terhadap prestasi matematika siswa.
 4. Menilai efektivitas beberapa algoritma machine learning (seperti regresi linier, decision tree, dan random forest) dalam memprediksi nilai matematika.
 5. Memberikan rekomendasi berdasarkan hasil analisis untuk mendukung kebijakan pendidikan yang lebih tepat sasaran.
 
-# 💡 Manfaat Penelitian:
+#  Manfaat Penelitian:
 1. Bagi institusi pendidikan: Sebagai dasar untuk memahami faktor-faktor yang memengaruhi prestasi matematika siswa dan mengembangkan intervensi yang tepat.
 2. Bagi guru dan orang tua: Memberikan wawasan mengenai pentingnya dukungan akademik dan persiapan ujian terhadap hasil belajar siswa.
 3. Bagi peneliti dan praktisi data science: Menjadi studi kasus dalam penerapan machine learning untuk prediksi kuantitatif dalam bidang pendidikan.
