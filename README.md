@@ -109,11 +109,14 @@ Pengelompokkan berdasarkan kelompok etnis dan tipe makan siang dapat mengungkap 
 Untuk mendapatkan insight yang lebih mudah dipahami, beberapa teknik visualisasi yang dapat diterapkan antara lain:
 - Boxplot:
 ![image](https://github.com/user-attachments/assets/4861d0ec-d564-430c-ab1e-e655fde8a9e5)
+
 Menampilkan distribusi skor untuk setiap kategori (misalnya, gender atau test preparation status) guna mengidentifikasi median, kuartil, serta outlier.
 - Bar Chart dan Violin Plot:
+
 ![image](https://github.com/user-attachments/assets/5948cf62-2cba-4ee4-992d-a26ae5a38125)
 ![image](https://github.com/user-attachments/assets/f18967a1-f05d-43a7-88ec-c3a10dcde127)
 ![image](https://github.com/user-attachments/assets/eb5a7183-523b-4e0a-b640-7533a5c9bd0c)
+
 Untuk membandingkan rata-rata skor antar kelompok, chart jenis ini dapat membantu menyederhanakan perbandingan antar variabel kategorikal.
 - Heatmap Korelasi:
 Jika ingin mengeksplorasi hubungan antar tiga tipe skor (matematika, membaca, menulis), peta korelasi dapat mengidentifikasi apakah siswa yang memiliki nilai tinggi di satu mata pelajaran juga cenderung tinggi di mata pelajaran lainnya.
