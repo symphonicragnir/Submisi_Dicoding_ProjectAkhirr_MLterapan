@@ -149,21 +149,16 @@ Pada tahap ini, dilakukan beberapa tahapan untuk mempersiapkan data:
 1. Scaling Fitur Numerik: Fitur numerik `reading_score` dan `writing_score` di-scaling menggunakan `StandardScaler`. Sementara `math_score` di-scaling namun tidak digunakan sebagai fitur prediktor, melainkan sebagai target (y).
 2. Encoding Fitur Kategorikal: Fitur seperti `gender`, `race_ethnicity`, `parental_level_of_education`, `lunch`, dan `test_preparation_course` diubah menjadi variabel numerik menggunakan One-Hot Encoding dengan penghapusan kategori pertama (`drop='first'`).
 3. Data dibagi menjadi fitur (X) yang terdiri dari `reading_score`, `writing_score`, dan hasil encoding fitur kategorikal, serta target (y) yang berupa `math_score`. Pembagian dilakukan menggunakan `train_test_split` dengan rasio 80:20.
-
-## Potensi Pengembangan Model Prediktif
-
-Pada tahap ini, dilakukan beberapa proses untuk mempersiapkan data sebelum dilakukan pemodelan:
-
-1. Identifikasi Fitur Numerik dan Kategori:
+4. Identifikasi Fitur Numerik dan Kategori:
    - Fitur numerik (`numeric_features`): `reading_score` dan `writing_score`.
    - Fitur kategori (`categorical_features`): `gender`, `race_ethnicity`, `parental_level_of_education`, `lunch`, dan `test_preparation_course`.
-2. OneHot Encoding:
+5. OneHot Encoding:
    - Fitur kategori dikonversi menjadi bentuk numerik menggunakan `OneHotEncoder` dari sklearn.
    - Parameter `drop='first'` digunakan untuk menghindari dummy variable trap dengan menghapus kategori pertama.
    - Parameter `sparse_output=False` digunakan agar hasil encoding berupa DataFrame, bukan Sparse Matrix.
-3. Menggabungkan Data Numerik dan Hasil Encoding:
+6. Menggabungkan Data Numerik dan Hasil Encoding:
    - Data numerik dan hasil encoding digabungkan menggunakan `pd.concat()`.
-4. Pembagian Data: - Fitur (X): Gabungan data numerik (`reading_score`, `writing_score`) dan hasil OneHot Encoding. - Target (y): `math_score`, yaitu skor matematika siswa yang akan diprediksi. - Data dibagi menjadi data latih (`X_train`, `y_train`) dan data uji (`X_test`, `y_test`) dengan proporsi 80:20 menggunakan `train_test_split()`.
+7. Pembagian Data: - Fitur (X): Gabungan data numerik (`reading_score`, `writing_score`) dan hasil OneHot Encoding. - Target (y): `math_score`, yaitu skor matematika siswa yang akan diprediksi. - Data dibagi menjadi data latih (`X_train`, `y_train`) dan data uji (`X_test`, `y_test`) dengan proporsi 80:20 menggunakan `train_test_split()`.
    Parameter `random_state=42` digunakan agar proses pembagian data tetap konsisten setiap kali kode dijalankan
 
 ## Modeling
