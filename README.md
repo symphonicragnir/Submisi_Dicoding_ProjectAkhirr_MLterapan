@@ -28,6 +28,7 @@ Dataset ini memuat catatan nilai siswa pada tiga mata pelajaran utama, yaitu mat
 🔸 1. Regresi
 Tujuan: Memprediksi nilai matematika sebagai target numerik.
 Model: Linear Regression, Random Forest Regressor, XGBoost Regressor, dll.
+
 🔸 2. Klasifikasi
 Tujuan: Mengelompokkan siswa ke dalam kategori prestasi, contoh:
 low (0–60), medium (61–80), high (81–100)
