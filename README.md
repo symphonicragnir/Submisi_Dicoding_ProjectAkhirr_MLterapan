@@ -1,1 +1,0 @@
-# Submisi_Dicoding_ProjectAkhirr_MLterapan
