@@ -47,6 +47,7 @@ Bagaimana kita dapat memprediksi nilai matematika siswa berdasarkan faktor-fakto
 Tujuan dari proyek ini adalah untuk membangun model prediktif yang mampu:
 
 (a) memprediksi nilai matematika siswa secara kuantitatif (regresi)
+
 (b) mengelompokkan siswa ke dalam kategori prestasi (klasifikasi) berdasarkan karakteristik non-akademik mereka.
 
 #  Pertanyaan Masalah:
