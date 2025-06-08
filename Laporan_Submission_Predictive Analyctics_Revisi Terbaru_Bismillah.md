@@ -91,7 +91,7 @@ Kolom (Columns): 8
 Dataset dapat diakses melalui tautan resmi Kaggle berikut:
 👉 https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
 
-![image](DataUnderstanding.png)
+![Data Understanding](https://github.com/user-attachments/assets/811a9973-d665-43dd-b420-6513693827af)
 
 ### Variabel-variabel pada study performance dataset adalah sebagai berikut:
 
@@ -109,12 +109,15 @@ Dataset dapat diakses melalui tautan resmi Kaggle berikut:
 - Cek missing values dengan `print(data.isnull().sum())` dan didapatkan hasil **tidak ada missing values**
 - Cek duplikasi data dengan `data.duplicated().sum()` dan didapatkan hasil **tidak ada data yang duplikat**
 - Visualisasi outlier dengan Boxplot
-  ![Boxplot distribusi outlier]![image](DeteksiOutlier.png)
+  ![Boxplot](https://github.com/user-attachments/assets/524f03ff-b96b-408c-a777-a81baf7551a4)
+
 - Visualisasi Distribusi Skor Matematika
-  ![image](MathScore.png)
+  ![Math Distribution](https://github.com/user-attachments/assets/25d3637e-80bb-460a-a336-35cc7f695d39)
+
 - Visualisasi Distribusi Skor Membaca dan Menulis
-  ![image](ReadingScore.png)
-  ![image](WritingScore.png)
+  ![Reading Distribution](https://github.com/user-attachments/assets/dd8f8f13-20b6-41f9-a445-4d58a8a05227)
+  ![Write Distribution](https://github.com/user-attachments/assets/7aaab005-fec8-4bd3-96b5-373e00316260)
+  
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 Berdasarkan variabel yang ada, beberapa pendekatan analisis bisa dilakukan, antara lain:
@@ -229,7 +232,8 @@ Hasil evaluasi:
 
 ## Visualisasi Hasil Prediksi vs Aktual
 
-![image](PrediksivsAktual.png)
+![Predictied Visual](https://github.com/user-attachments/assets/717b330a-18c0-4a41-b9b1-39b5222dfdb8)
+
 Visualisasi ini menunjukkan hubungan antara nilai aktual (`y_test`) dan nilai prediksi (`y_pred`) untuk skor matematika (`math_score`).
 
 - Sumbu X: Nilai aktual skor matematika.
@@ -239,7 +243,8 @@ Visualisasi ini menunjukkan hubungan antara nilai aktual (`y_test`) dan nilai pr
 
 ## Kesimpulan
 
-![image](Kesimpulan.png)
+![Conclusion](https://github.com/user-attachments/assets/acf82cc0-95d0-413c-a508-6644ba2c5590)
+
 Hasil evaluasi menunjukkan bahwa model memiliki performa yang cukup baik dalam memprediksi skor matematika siswa. Dengan nilai R² sebesar 0.8804, model ini dapat menjelaskan sekitar 88% variansi dalam data, yang menunjukkan bahwa model mampu memprediksi skor matematika dengan akurasi tinggi. Nilai MSE dan MAE yang rendah menunjukkan bahwa perbedaan antara nilai prediksi dan nilai aktual relatif kecil, yang menandakan performa model yang baik.
 
 Model ini telah berhasil menjawab Problem Statement pertama, yaitu memprediksi skor matematika siswa berdasarkan fitur demografis dan akademik mereka. Dengan hasil yang cukup memuaskan, model ini menunjukkan bahwa faktor-faktor seperti tingkat pendidikan orang tua, jenis kelamin, dan makan siang siswa memiliki pengaruh terhadap skor matematika mereka, meskipun tidak dijelaskan secara eksplisit dalam metrik.
