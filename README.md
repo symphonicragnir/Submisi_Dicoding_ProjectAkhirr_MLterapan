@@ -195,6 +195,7 @@ Melihat signifikansi tingkat pendidikan orang tua terhadap nilai, sekolah dapat 
 
 ## Visualisasi Evaluasi Hasil Prediksi
 ![image](https://github.com/user-attachments/assets/c724a839-e568-487e-b955-61fc4fddc0d2)
+
 Visualisasi ini menunjukkan hubungan antara nilai aktual (`y_test`) dan nilai prediksi (`y_pred`) untuk skor matematika (`math_score`).
 - Sumbu X: Nilai aktual skor matematika.
 - Sumbu Y: Nilai prediksi skor matematika.
@@ -205,6 +206,7 @@ Visualisasi ini menunjukkan hubungan antara nilai aktual (`y_test`) dan nilai pr
 
 ## Kesimpulan
 ![image](https://github.com/user-attachments/assets/31542234-3f0a-4339-81e8-9dae06406453)
+
 
 Dataset Students Performance in Exams menyediakan lahan analisis yang kaya untuk memahami faktor-faktor yang mempengaruhi kinerja akademik siswa. Dengan menggabungkan analisis statistik dan visualisasi, kita tidak hanya dapat mengenali pola-pola penting (seperti dampak jenis kelamin, kursus persiapan, pendidikan orang tua, hingga peran demografi lainnya), tetapi juga mengubah insight tersebut menjadi strategi intervensi yang konkrit untuk mendukung peningkatan mutu pendidikan.
 Pendekatan ini menggabungkan eksplorasi data mendalam dan aplikasi model machine learning, memberikan dasar kuat bagi pengambil kebijakan untuk menciptakan solusi yang terukur dengan metrik evaluasi yang jelas.
